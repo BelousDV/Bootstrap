@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="ru">
+    <meta charset="UTF-8">
+    <meta name="vieport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/media_bootstrap.css">
+    <link rel="stylesheet" href="style/swiper.css">
+    <link rel="stylesheet" href="style/magnific-popup.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-xl px-ms-5">
+            <div
+                class="row row-cols-2 row-cols-sm-2 row-cols-md-4 align-items-center justify-content-between header__info">
+                <div class="col-4 col-sm-4 order-1 order-md-1 col-md-auto col-lg-auto">
+                    <a class="info-logo" href="#"></a>
+                </div>
+                <div class="col-12 order-3 order-md-2 col-sm-8 col-md-3 px-md-0 col-lg-4 col-xl-5">
+                    <div class="d-flex justify-content-between header__info_inner-serch">
+                        <div class="info_search-wrap">
+                            <input type="text" class="info-search" placeholder="Поиск по сайту..." />
+                            <button class="info-search_btn">
+                                <img src="./images/search_icon.png" alt="Search" width="17px" height="18px" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 order-4 order-md-3 col-sm-4 col-lg-auto">
+                    <div class="info_button">
+                        <button type="button" class="button-question" data-toggle="modal" data-target="#modal-question">
+                            Задать вопрос
+                        </button>
+                    </div>
+                </div>
+                <div class="col-8 col-sm-8 order-2 order-md-4 col-md-auto">
+                    <div class="d-flex">
+                        <a href="#" class="phone_call">
+                            <img src="./images/phone_ico.png" alt="Call" widt="15px" height="15px" />
+                        </a>
+                        <div class="contacts_phone">
+                            <a href="tel:+88314151718" class="info-number">
+                                8 (831) 415-17-18
+                            </a>
+                            <a href="tel:+89534151718" class="info-number">
+                                8 (953) 415-17-18
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="navigation-menu_header">
+        <div class="container-xl px-ms-5">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="my-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                главная
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="navigation-menu__btn dropdown-toggle dropdown-toggle-split" role="button"
+                                id="menuBtnHelp" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Юридическая помощь<span class="sr-only">Юридическая помощь</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menuBtnHelp">
+                                <a class="dropdown-item" href="#">
+                                    Бесплатная юридическая консультация
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Досудебный порядок урегулирования споров.
+                                    Составить претензию
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Исковое заявление
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Представление интересов в суде
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Разработка и экспертиза договоров
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Защита прав потребителя
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Споры с застройщиками
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Вступление в наследство
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Банкротство физических лиц
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Возмещение вреда и ущерба
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Компенсация морального вреда
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Получение гражданства РФ
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Получение вида на жительство (ВНЖ),
+                                    разрешения на временное
+                                    пребывание (РВП)
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Возврат долгов
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Арбитраж
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Жалоба в Европейский суд по правам человека
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="navigation-menu__btn dropdown-toggle dropdown-toggle-split" role="button"
+                                id="menuBtnLawyer" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Выберите юриста<span class="sr-only">Выберите юриста</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menuBtnLawyer">
+                                <a class="dropdown-item" href="#">
+                                    Юрист 1
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 2
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 3
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 4
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 5
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 6
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 7
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 8
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 9
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 10
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 11
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 12
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 13
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 14
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="navigation-menu__btn dropdown-toggle dropdown-toggle-split" role="button"
+                                id="menuBtnAdvocate" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Выберите адвоката<span class="sr-only">Выберите адвоката</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menuBtnAdvocate">
+                                <a class="dropdown-item" href="#">
+                                    Адвокат 1
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Адвокат 2
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Адвокат 3
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="navigation-menu__btn dropdown-toggle dropdown-toggle-split" role="button"
+                                id="menuBtnCompany" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                О компании<span class="sr-only">О компании</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menuBtnCompany">
+                                <a class="dropdown-item" href="#">
+                                    О компании 1
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    О компании 2
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    О компании 3
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Статьи
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="swiper-container">
+            <div class="swiper-button-prev baner_arrow-prev"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="header__baner_slide-first">
+                        <div class="container-xl px-ms-5">
+                            <div class="row justify-content-center">
+                                <div class="col-10 col-sm-8">
+                                    <div class="header__slide-content">
+                                        <h3>Услуги физическим лицам</h3>
+                                        <p class="slide_description">
+                                            Консультируем и оказываем юридическую помощь
+                                            по вопросам гражданского, административного,
+                                            семейного, жилищного права. Защитим Ваши
+                                            интересы в различных судебных инстанциях!
+                                        </p>
+                                        <div class="header__slider_button">
+                                            <button type="button" class="slider_button">
+                                                Подробнее
+                                            </button>
+                                        </div>
+                                        <div id="custom-style" class="swiper-pagination-head"></div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="header__slide_item-first"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="header__baner_slide-second">
+                        <div class="container-xl px-ms-5 header__slide-inner">
+                            <div class="row justify-content-center">
+                                <div class="col-10 col-sm-8">
+                                    <div class="header__slide-content">
+                                        <h3>Услуги физическим лицам</h3>
+                                        <p class="slide_description">
+                                            Консультируем и оказываем юридическую помощь
+                                            по вопросам гражданского, административного,
+                                            семейного, жилищного права. Защитим Ваши
+                                            интересы в различных судебных инстанциях!
+                                        </p>
+                                        <div class="header__slider_button">
+                                            <button type="button" class="slider_button">
+                                                Подробнее
+                                            </button>
+                                        </div>
+                                        <div id="custom-style" class="swiper-pagination-head"></div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="header__slide_item-second"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="header__baner_slide-first">
+                        <div class="container-xl px-ms-5 header__slide-inner">
+                            <div class="row justify-content-center">
+                                <div class="col-10 col-sm-8">
+                                    <div class="header__slide-content">
+                                        <h3>Услуги физическим лицам</h3>
+                                        <p class="slide_description">
+                                            Консультируем и оказываем юридическую помощь
+                                            по вопросам гражданского, административного,
+                                            семейного, жилищного права. Защитим Ваши
+                                            интересы в различных судебных инстанциях!
+                                        </p>
+                                        <div class="header__slider_button">
+                                            <button type="button" class="slider_button">
+                                                Подробнее
+                                            </button>
+                                        </div>
+                                        <div id="custom-style" class="swiper-pagination-head"></div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="header__slide_item-first"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="header__baner_slide-second">
+                        <div class="container-xl px-ms-5 header__slide-inner">
+                            <div class="row justify-content-center">
+                                <div class="col-10 col-sm-8">
+                                    <div class="header__slide-content">
+                                        <h3>Услуги физическим лицам</h3>
+                                        <p class="slide_description">
+                                            Консультируем и оказываем юридическую помощь
+                                            по вопросам гражданского, административного,
+                                            семейного, жилищного права. Защитим Ваши
+                                            интересы в различных судебных инстанциях!
+                                        </p>
+                                        <div class="header__slider_button">
+                                            <button type="button" class="slider_button">
+                                                Подробнее
+                                            </button>
+                                        </div>
+                                        <div id="custom-style" class="swiper-pagination-head"></div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="header__slide_item-second"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next baner_arrow-next"></div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="container-xl px-ms-5">
+            <div class="row">
+                <div class="content_row">
+                    <h2 class="title">Преимущества</h2>
+                </div>
+            </div>
+            <div class="row row-flex">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantages__item">
+                        <div class="advantages__icon first"></div>
+                        <p class="advantages__item-title">Более 10 лет успешной практики</p>
+                        <p>Повседневная практика показывает,
+                            что постоянный количественный рост и
+                            сфера нашей активности позволяет оценить
+                            значение систем массового участия.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantages__item">
+                        <div class="advantages__icon second"></div>
+                        <p class="advantages__item-title">Более 207 выигранных дел</p>
+                        <p>Повседневная практика показывает,
+                            что постоянный количественный рост и
+                            сфера нашей активности позволяет
+                            оценить значение систем массового участия.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantages__item">
+                        <div class="advantages__icon third"></div>
+                        <p class="advantages__item-title">Взыскали более 5 237 198 рублей</p>
+                        <p>Повседневная практика показывает, что
+                            постоянный количественный рост и сфера
+                            нашей активности позволяет оценить значение
+                            систем массового участия.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantages__item">
+                        <div class="advantages__icon fourth"></div>
+                        <p class="advantages__item-title">грамотность</p>
+                        <p>Повседневная практика показывает, что
+                            постоянный количественный рост и сфера
+                            нашей активности позволяет оценить значение
+                            систем массового участия.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantages__item">
+                        <div class="advantages__icon fifth"></div>
+                        <p class="advantages__item-title">Надежность</p>
+                        <p>Повседневная практика показывает, что
+                            постоянный количественный рост и сфера
+                            нашей активности позволяет оценить значение
+                            систем массового участия.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantages__item">
+                        <div class="advantages__icon sixth"></div>
+                        <p class="advantages__item-title">Команда профессионалов</p>
+                        <p>Повседневная практика показывает, что
+                            постоянный количественный рост и сфера нашей
+                            активности позволяет оценить значение систем
+                            массового участия.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container-xl px-ms-5">
+            <div class="row">
+                <div class="content_row">
+                    <h2 class="title">О компании</h2>
+                </div>
+            </div>
+            <div class="row row_padding">
+                <div class="col-12">
+                    <div class="about__item-descriptions">
+                        <div class="about__item-photo">
+                            <div class="item_photo-man"></div>
+                        </div>
+                        <p>
+                            Рады приветствовать и имеем готовность
+                            помочь в Вашей проблеме.
+                        </p>
+                        <p>
+                            Мы молодая и опытная компания, которая оказывает
+                            правовую помощь гражданам и организациям.
+                        </p>
+                        <p>
+                            Юридическая компания «ЮрФронт» — Ваш правовой
+                            союзник, который готов оказать квалифицированную
+                            юридическую помощь профессиональных юристов и
+                            адвокатов в Нижнем Новгороде и других регионах
+                            России.
+                        </p>
+                        <p>
+                            Богатый правовой опыт, профессиональное образование,
+                            актуальные правовые ресурсы, хорошие отношения с
+                            юридическим миром, успешная практика – все это и
+                            многое другое создает задел для отстаивания интересов
+                            клиентов юридической компании «ЮрФронт».
+                        </p>
+                        <p>
+                            В компании «ЮрФронт» Вы получите многоаспектную помощь
+                            и сопровождение, начиная с консультаций до ведения
+                            различных судебных процессов в судах всех
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container-xl px-ms-5">
+            <div class="row">
+                <div class="content_row">
+                    <h2 class="title">Наши услуги</h2>
+                </div>
+            </div>
+            <div class="row row_padding">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-1.png" class="card-img-top" alt="Бесплатная консультация" />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Бесплатная юридическая консультация
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-2.png" class="card-img-top" alt="Составить претензию" />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Досудебный порядок урегулирования споров. Составить претензию.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-3.png" class="card-img-top" alt="Исковое заявление" />
+                        <div class="card-body">
+                            <h5 class="card-title">Исковое заявление</h5>
+                            <ul class="item-services-list">
+                                <li>Земельные дела</li>
+                                <li>Жилищные дела</li>
+                                <li>Страховые дела</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-4.png" class="card-img-top" alt="Представление интересов" />
+                        <div class="card-body">
+                            <h5 class="card-title">Представление интересов в суде</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-5.png" class="card-img-top" alt="Разработка договоров" />
+                        <div class="card-body">
+                            <h5 class="card-title">Разработка и экспертиза договоров</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-6.png" class="card-img-top" alt="Защита потребителей" />
+                        <div class="card-body">
+                            <h5 class="card-title">Защита прав потребителей</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-7.png" class="card-img-top" alt="Споры" />
+                        <div class="card-body">
+                            <h5 class="card-title">Споры с застройщиками</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-8.png" class="card-img-top" alt="Наследство" />
+                        <div class="card-body">
+                            <h5 class="card-title">Вступление в наследство</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="allServices" class="row un-show">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-9.png" class="card-img-top" alt="Банкротство" />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Банкротство физических лиц.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-10.png" class="card-img-top" alt="Возмещение" />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Возмещение вреда и ущерба.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-11.png" class="card-img-top" alt="Компенсация" />
+                        <div class="card-body">
+                            <h5 class="card-title">Компенсация морального вреда</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-12.png" class="card-img-top" alt="Гражданство РФ" />
+                        <div class="card-body">
+                            <h5 class="card-title">Получение гражданства РФ.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-13.png" class="card-img-top" alt="Вид на жительство" />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Получение вида на жительство (ВНЖ), разрешения на временное пребывания (РВГ).
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-14.png" class="card-img-top" alt="Возврат долгов" />
+                        <div class="card-body">
+                            <h5 class="card-title">Возврат долгов.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-15.png" class="card-img-top" alt="Арбитраж" />
+                        <div class="card-body">
+                            <h5 class="card-title">Арбитраж</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <img src="./images/service_icon-16.png" class="card-img-top" alt="Жалоба" />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Жалоба в Европейский суд по правам человека.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-3">
+                    <div class="services_button">
+                        <button id="showServices" class="button-services">
+                            Все услуги
+                        </button>
+                        <button id="collapseServices" class="button-services-collapse un-show">
+                            Свернуть
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work">
+        <div class="container-xl px-ms-5">
+            <div class="row">
+                <div class="content_row">
+                    <h2 class="title">Как мы работаем</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="content_row work__row">
+                        <div class="work__item">
+                            <div class="work__item-icon work_icon-first"></div>
+                            <div class="work__item-title">
+                                Заявка / звонок
+                            </div>
+                        </div>
+                        <div class="arrow_bottom"></div>
+                        <div class="work__item">
+                            <div class="work__item-icon work_icon-second"></div>
+                            <div class="work__item-title">
+                                Консультация
+                            </div>
+                        </div>
+                        <div class="arrow_top"></div>
+                        <div class="work__item">
+                            <div class="work__item-icon work_icon-third"></div>
+                            <div class="work__item-title">
+                                Личная встреча в офисе
+                            </div>
+                        </div>
+                        <div class="arrow_bottom"></div>
+                        <div class="work__item">
+                            <div class="work__item-icon work_icon-fourth"></div>
+                            <div class="work__item-title">
+                                Заключение договора и внесение оплаты
+                            </div>
+                        </div>
+                        <div class="arrow_top"></div>
+                        <div class="work__item">
+                            <div class="work__item-icon work_icon-fifth"></div>
+                            <div class="work__item-title">
+                                Выполнение работ согласно договору
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cooperation">
+        <div class="container-xl px-ms-5">
+            <div class="row">
+                <div class="content_row">
+                    <h2 class="title">Активное сотрудничество</h2>
+                </div>
+            </div>
+            <div class="row row_padding">
+                <div class="col col-sm-auto px-0">
+                    <div class="cooperation_slider-wrapper">
+                        <div class="cooperations_inner-btn">
+                            <div class="swiper-cooperations-button-prev cooperation_slider-prev"></div>
+                        </div>
+                        <div class="swiper-cooperations">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide custom_slide">
+                                    <div class="cooperation__item">
+                                        <div class="cooperation_icon-first"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="cooperation__item">
+                                        <div class="cooperation_icon-second"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="cooperation__item">
+                                        <div class="cooperation_icon-third"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="cooperation__item">
+                                        <div class="cooperation_icon-fourth"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="cooperation__item">
+                                        <div class="cooperation_icon-fifth"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="cooperation__item">
+                                        <div class="cooperation_icon-first"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="cooperation__item">
+                                        <div class="cooperation_icon-second"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="cooperation__item">
+                                        <div class="cooperation_icon-third"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="cooperation__item">
+                                        <div class="cooperation_icon-fourth"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="cooperation__item">
+                                        <div class="cooperation_icon-fifth"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cooperations_inner-btn right">
+                            <div class="swiper-cooperations-button-next cooperation_slider-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="container-xl px-ms-5">
+            <div class="row">
+                <div class="content_row">
+                    <h2 class="title">Наши партнеры</h2>
+                </div>
+            </div>
+            <div class="row row_padding">
+                <div class="col col-sm-auto px-0">
+                    <div class="partners_slider-wrapper">
+                        <div class="partners_inner-btn">
+                            <div class="swiper-partners-button-prev partners_slider-prev"></div>
+                        </div>
+                        <div class="swiper-partners">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide custom_slide">
+                                    <div class="partners__item">
+                                        <div class="partners_icon-first"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="partners__item">
+                                        <div class="partners_icon-second"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="partners__item">
+                                        <div class="partners_icon-third"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="partners__item">
+                                        <div class="partners_icon-fourth"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="partners__item">
+                                        <div class="partners_icon-fifth"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="partners__item">
+                                        <div class="partners_icon-first"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="partners__item">
+                                        <div class="partners_icon-second"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="partners__item">
+                                        <div class="partners_icon-third"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="partners__item">
+                                        <div class="partners_icon-fourth"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide custom_slide">
+                                    <div class="partners__item">
+                                        <div class="partners_icon-fifth"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="partners_inner-btn right">
+                            <div class="swiper-partners-button-next partners_slider-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container-xl px-ms-5">
+            <div class="row">
+                <div class="content_row">
+                    <h2 class="title">Отзывы</h2>
+                </div>
+            </div>
+            <div class="row row_padding">
+                <div class="col-12">
+                    <div class="wrapper_reviews-buttons">
+                        <div class="swiper-reviews-button-prev reviews_slider-prev"></div>
+                        <div class="swiper-reviews-button-next reviews_slider-next"></div>
+                    </div>
+                    <div class="swiper-reviews">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide custom_slide">
+                                <div class="reviews__person">
+                                    <div class="reviews__logo-inner">
+                                        <div class="person-logo"></div>
+                                    </div>
+                                    <div class="person-name">
+                                        Виктор
+                                    </div>
+                                    <div class="person-review_data">
+                                        12.08.18
+                                    </div>
+                                    <p class="person-review">
+                                        Разводился с женой, по-хорошему не вышло,
+                                        пришлось обращаться к юристам. Было много
+                                        нюансов: общие несовершеннолетние дети,
+                                        общее имущество и т.д. Благодарен специалистам
+                                        за то, что быстро взялись за дело. Процесс
+                                        завершили очень быстро и пришли к мировому соглашению.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide custom_slide">
+                                <div class="reviews__person">
+                                    <div class="reviews__logo-inner">
+                                        <div class="person-logo"></div>
+                                    </div>
+                                    <div class="person-name">
+                                        Виктор
+                                    </div>
+                                    <div class="person-review_data">
+                                        29.01.19
+                                    </div>
+                                    <p class="person-review">
+                                        Разводился с женой, по-хорошему не вышло,
+                                        пришлось обращаться к юристам. Было много
+                                        нюансов: общие несовершеннолетние дети,
+                                        общее имущество и т.д. Благодарен специалистам
+                                        за то, что быстро взялись за дело. Процесс
+                                        завершили очень быстро и пришли к мировому соглашению.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide custom_slide">
+                                <div class="reviews__person">
+                                    <div class="reviews__logo-inner">
+                                        <div class="person-logo"></div>
+                                    </div>
+                                    <div class="person-name">
+                                        Павел
+                                    </div>
+                                    <div class="person-review_data">
+                                        02.05.20
+                                    </div>
+                                    <p class="person-review">
+                                        Разводился с женой, по-хорошему не вышло,
+                                        пришлось обращаться к юристам. Было много
+                                        нюансов: общие несовершеннолетние дети,
+                                        общее имущество и т.д. Благодарен специалистам
+                                        за то, что быстро взялись за дело. Процесс
+                                        завершили очень быстро и пришли к мировому соглашению.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="question">
+        <div class="container-xl px-ms-5">
+            <div class="row">
+                <div class="content_row">
+                    <h2 class="title">Задать вопрос юристу</h2>
+                </div>
+            </div>
+            <form action="#" class="question__form">
+                <div class="row my-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="question__form-group_left">
+                            <div class="form-group mb-4">
+                                <label for="userName" class="mb-0 question__form_placeholder-text userName">
+                                    Ваше имя
+                                </label>
+                                <input type="text" class="question__form-input" id="userName" />
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="userEmail" class="mb-0 question__form_placeholder-text userEmail">
+                                    Ваш e-mail
+                                </label>
+                                <input type="email" class="question__form-input" id="userEmail" />
+                            </div>
+                            <div class="form-group mb-0">
+                                <label for="userPhone" class="mb-0 question__form_placeholder-text userPhone">
+                                    Ваш телефон
+                                </label>
+                                <input type="tel" class="question__form-input" id="userPhone" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="form-group question__form-group_right">
+                            <label for="userMessage" class="question__form_placeholder-text userMessage">
+                                Сообщение
+                            </label>
+                            <textarea name="message" id="userMessage" class="question__form-message" cols="30"
+                                rows="10">
+
+                                </textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-3">
+                        <button type="submit" class="question-send">
+                            Отправить
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <div class="row">
+                <div class="col">
+                    <p class="question__consult">
+                        С другой стороны консультация с широким активом
+                        требуют определения и уточнения дальнейших направлений
+                        развития. Таким образом постоянный количественный рост
+                        и сфера нашей активности представляет собой интересный
+                        эксперимент проверки направлений прогрессивного развития.
+                        Значимость этих проблем настолько очевидна, что новая
+                        модель организационной деятельности влечет за собой
+                        процесс внедрения и модернизации дальнейших направлений развития.
+                    </p>
+                    <p class="question__consult">
+                        Повседневная практика показывает, что дальнейшее развитие
+                        различных форм деятельности требуют от нас анализа систем
+                        массового участия. Значимость этих проблем настолько очевидна,
+                        что реализация намеченных плановых заданий играет важную роль
+                        в формировании соответствующий условий активизации. Задача
+                        организации, в особенности же новая модель организационной
+                        деятельности требуют от нас анализа существенных финансовых
+                        и административных условий.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="navigation-menu_footer">
+        <div class="container-xl px-ms-5">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" data-target="#my-nav-footer" data-toggle="collapse"
+                    aria-controls="my-nav-footer" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="my-nav-footer" class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                главная
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="navigation-menu__btn dropdown-toggle dropdown-toggle-split" role="button"
+                                id="menuBtnHelpFooter" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Юридическая помощь<span class="sr-only">Юридическая помощь</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menuBtnHelpFooter">
+                                <a class="dropdown-item" href="#">
+                                    Бесплатная юридическая консультация
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Досудебный порядок урегулирования споров.
+                                    Составить претензию
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Исковое заявление
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Представление интересов в суде
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Разработка и экспертиза договоров
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Защита прав потребителя
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Споры с застройщиками
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Вступление в наследство
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Банкротство физических лиц
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Возмещение вреда и ущерба
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Компенсация морального вреда
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Получение гражданства РФ
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Получение вида на жительство (ВНЖ),
+                                    разрешения на временное
+                                    пребывание (РВП)
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Возврат долгов
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Арбитраж
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Жалоба в Европейский суд по правам человека
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="navigation-menu__btn dropdown-toggle dropdown-toggle-split" role="button"
+                                id="menuBtnLawyerFooter" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Выберите юриста<span class="sr-only">Выберите юриста</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menuBtnLawyerFooter">
+                                <a class="dropdown-item" href="#">
+                                    Юрист 1
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 2
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 3
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 4
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 5
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 6
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 7
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 8
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 9
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 10
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 11
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 12
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 13
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Юрист 14
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="navigation-menu__btn dropdown-toggle dropdown-toggle-split" role="button"
+                                id="menuBtnAdvocateFooter" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Выберите адвоката<span class="sr-only">Выберите адвоката</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menuBtnAdvocateFooter">
+                                <a class="dropdown-item" href="#">
+                                    Адвокат 1
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Адвокат 2
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Адвокат 3
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="navigation-menu__btn dropdown-toggle dropdown-toggle-split" role="button"
+                                id="menuBtnCompanyFooter" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                О компании<span class="sr-only">О компании</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menuBtnCompanyFooter">
+                                <a class="dropdown-item" href="#">
+                                    О компании 1
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    О компании 2
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    О компании 3
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Статьи
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container-xl px-ms-5">
+            <div
+                class="row row-cols-2 row-cols-sm-2 row-cols-md-4 align-items-center justify-content-between header__info">
+                <div class="col-3 order-1 order-md-1 col-sm-4 col-md-auto col-lg-auto">
+                    <a class="info-logo" href="#"></a>
+                </div>
+                <div class="col-12 order-3 order-md-2 col-sm-8 col-md-3 px-md-0 col-lg-4 col-xl-5">
+                    <div class="d-flex justify-content-between footer__info_inner-serch">
+                        <div class="info_search-wrap">
+                            <input type="text" class="info-search" placeholder="Поиск по сайту..." />
+                            <button class="info-search_btn">
+                                <img src="./images/search_icon.png" alt="Search" width="17px" height="18px" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 order-4 order-md-3 col-sm-4 col-lg-auto">
+                    <div class="info_button">
+                        <button type="button" class="button-question" data-toggle="modal" data-target="#modal-question">
+                            Задать вопрос
+                        </button>
+                    </div>
+                </div>
+                <div class="order-2 order-md-4 col-sm-8 col-md-auto">
+                    <div class="d-flex">
+                        <a href="#" class="phone_call">
+                            <img src="./images/phone_ico.png" alt="Call" widt="15px" height="15px" />
+                        </a>
+                        <div class="contacts_phone">
+                            <a href="tel:+88314151718" class="info-number">
+                                8 (831) 415-17-18
+                            </a>
+                            <a href="tel:+89534151718" class="info-number">
+                                8 (953) 415-17-18
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="author" href="http://PixWhite.com" target="_blank">
+            PixWhite.com © 2018 Все права защищены
+        </a>
+    </footer>
+
+    <div class="modal fade" id="modal-question" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal__block-title">
+                        Задать вопрос
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="./images/close.png" alt="Close" width="18px" height="18px" />
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form action="#" class="modal__question_form">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="userName" class="mb-0 question__form_placeholder-text userName">
+                                            Ваше имя
+                                        </label>
+                                        <input type="text" class="question__form-input" id="userName" />
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="userEmail" class="mb-0 question__form_placeholder-text userEmail">
+                                            Ваш e-mail
+                                        </label>
+                                        <input type="email" class="question__form-input" id="userEmail" />
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="userPhone" class="mb-0 question__form_placeholder-text userPhone">
+                                            Ваш телефон
+                                        </label>
+                                        <input type="tel" class="question__form-input" id="userPhone" />
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group question_form-message">
+                                        <label for="userMessage" class="question__form_placeholder-text userMessage">
+                                            Сообщение
+                                        </label>
+                                        <textarea name="message" id="userMessage" class="question__form-message"
+                                            cols="30" rows="10">
+
+                                        </textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-sm-6">
+                                    <button type="submit" class="question-send">
+                                        Отправить
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="./scripts/jquery-3.5.1.min.js"></script>
+    <script src="./scripts/bootstrap.min.js"></script>
+    <script src="./scripts/jquery.magnific-popup.min.js"></script>
+    <script>
+        window.onload = function () {
+            // Sliders
+            var swiper = new Swiper('.swiper-container', {
+                cssMode: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                pagination: {
+                    el: '.swiper-pagination-head'
+                },
+                mousewheel: true,
+                keyboard: true,
+            });
+            var swiperCooper = new Swiper('.swiper-cooperations', {
+                cssMode: true,
+                navigation: {
+                    nextEl: '.swiper-cooperations-button-next',
+                    prevEl: '.swiper-cooperations-button-prev',
+                },
+                /*mousewheel: true,*/
+                keyboard: true,
+            });
+            var swiperPartner = new Swiper('.swiper-partners', {
+                cssMode: true,
+                navigation: {
+                    nextEl: '.swiper-partners-button-next',
+                    prevEl: '.swiper-partners-button-prev',
+                },
+                /*mousewheel: true,*/
+                keyboard: true,
+            });
+            var swiperReviews = new Swiper('.swiper-reviews', {
+                cssMode: true,
+                navigation: {
+                    nextEl: '.swiper-reviews-button-next',
+                    prevEl: '.swiper-reviews-button-prev',
+                },
+                /*mousewheel: true,*/
+                keyboard: true,
+            });
+
+            // Buttons Function
+            let allServices = document.getElementById("showServices");
+            let services = document.getElementById("allServices");
+            let collapseServices = document.getElementById("collapseServices");
+
+            allServices.addEventListener('click', showServices);
+            collapseServices.addEventListener('click', unShowServices);
+
+            function showServices() {
+                services.className = ("row" + " " + "show_content");
+                allServices.className = ("button-services" + " " + "un-show");
+                collapseServices.className = ("button-services-collapse" + " " + "show_btn");
+            }
+            function unShowServices() {
+                services.className = ("row" + " " + "un-show");
+                allServices.className = ("button-services" + " " + "show_btn");
+                collapseServices.className = ("button-services-collapse" + " " + "un-show");
+            }
+        }
+    </script>
+</body>
+
+</html>
